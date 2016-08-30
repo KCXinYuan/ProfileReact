@@ -2,8 +2,9 @@
   "name": "profileflux",
   "version": "0.1.0",
   "description": "Personal Flux/React profile",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
