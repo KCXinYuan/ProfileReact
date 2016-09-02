@@ -4,7 +4,8 @@ import { Router, Route, IndexRoute, hashHistory} from "react-router";
 
 import About from "./pages/About";
 import Layout from "./pages/Layout";
-import Projects from "./pages/Projects";
+import ProjectsPage from "./pages/ProjectsPage";
+import Contact from "./pages/Contact";
 
 const app = document.getElementById('app');
 ReactDOM.render(
@@ -12,7 +13,7 @@ ReactDOM.render(
     <Route path="/" component={Layout}>
       <IndexRoute></IndexRoute>
       <Route path="about" component={About}></Route>
-      <Route path="projects" component={Projects}></Route>
+      <Route path="projects" component={ProjectsPage}></Route>
       <Route path="contact" component={Contact}></Route>
     </Route>
   </Router>, app);
