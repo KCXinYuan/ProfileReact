@@ -1,12 +1,16 @@
 import React from 'react';
 
-import Bio from '../components/Bio';
+import { Education, Experience, Goals, Projects, TechSkills } from "../components/resume/index"
 
 export default class About extends React.Component {
   render () {
     return (
       <div>
-        <Bio />
+        <Goals />
+        <TechSkills />
+        <Projects />
+        <Education />
+        <Experience />
       </div>
     )
   }
