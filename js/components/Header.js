@@ -4,7 +4,9 @@ import { Link } from "react-router";
 export default class Header extends React.Component {
   render () {
     return (
-      <header>Kevin Chuang</header>
+      <header>
+        <h1>Kevin Chuang</h1>
+      </header>
     )
   }
 }

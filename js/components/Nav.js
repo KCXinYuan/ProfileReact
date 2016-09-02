@@ -5,9 +5,9 @@ export default class Nav extends React.Component {
   render () {
     return (
       <nav>
-        <a href="/about">About</a>
-        <a href="/projects">Projects</a>
-        <a href="/contact">Contact</a>
+        <Link to="/about"><button>About</button></Link>
+        <Link to="/projects"><button>Projects</button></Link>
+        <Link to="/contact"><button>Contact</button></Link>
       </nav>
     )
   }

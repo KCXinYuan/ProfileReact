@@ -1,7 +1,7 @@
 {
-  "name": "profileflux",
+  "name": "profilereact",
   "version": "0.1.0",
-  "description": "Personal Flux/React profile",
+  "description": "Personal React profile",
   "main": "index.html",
   "scripts": {
     "dev": "webpack-dev-server --progress --inline --hot",
